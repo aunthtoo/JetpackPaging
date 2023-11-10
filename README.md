@@ -6,5 +6,8 @@ This is a sample project implementing pagination in Jetpack Compose using Compos
 
 ## Result
 
-You can download the app to test [here](releaseApk/JetpackPagingApp.apk).
-![Popular Movie List App](gif/jetpack%20paing.gif)
+You can download the result app [here](releaseApk/JetpackPagingApp.apk).
+<br>
+<div align="center">
+  <img src="gif/jetpack%20paing.gif" alt="Popular Movie List App">
+</div>
