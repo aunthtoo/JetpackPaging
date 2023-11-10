@@ -13,13 +13,14 @@ You can download the result app [here](releaseApk/JetpackPagingApp.apk).
 </div>
 
 ## Installation
-To build the project in your environment, you need to replace my TMDB API key with yours in the `local.properties` file. Just insert `apiKey="your api key"` line inside that file. And follow the instructions below.<br>
 - Firstly, clone the repository and navigate to the project folder using the `cd` command.
 ```bash
 git clone https://github.com/aunthtoo/JetpackPaging.git
 cd JetpackPaging
 ```
-- Build and intall the debug app with the following command.
+- To build the project in your environment, you need to replace my TMDB API key with yours in the `local.properties` file. <br>
+Insert `apiKey="your api key"` line inside that file.
+- And then build and intall the debug app with the following command.
 ```bash
 ./gradlew installDebug 
 ```
