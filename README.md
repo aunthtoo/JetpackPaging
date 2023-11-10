@@ -2,7 +2,7 @@
 
 ## Description
 
-This is a sample project implementing pagination in Jetpack Compose using Compose Paging library.
+This is a sample project implementing pagination in Jetpack Compose using Paging Compose library.
 
 ## Result App
 
@@ -13,7 +13,7 @@ You can download the result app [here](releaseApk/JetpackPagingApp.apk).
 </div>
 
 ## Installation
-To build the project in your environment, you need to replace my TMDB API key with yours in the `local.properties` file. And follow the instructions below.<br>
+To build the project in your environment, you need to replace my TMDB API key with yours in the `local.properties` file. Just insert `apiKey="your api key"` line inside that file. And follow the instructions below.<br>
 - Firstly, clone the repository and navigate to the project folder using the `cd` command.
 ```bash
 git clone https://github.com/aunthtoo/JetpackPaging.git
