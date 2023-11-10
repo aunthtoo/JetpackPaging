@@ -23,3 +23,7 @@ cd JetpackPaging
 ```bash
 ./gradlew installDebug 
 ```
+That's all.
+<br>
+
+You can also read the Medium article about this project [here.]
