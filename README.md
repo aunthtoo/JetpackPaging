@@ -19,7 +19,7 @@ To build the project in your environment, you need to replace my TMDB API key wi
 git clone https://github.com/aunthtoo/JetpackPaging.git
 cd JetpackPaging
 ```
-- And build the debug app with the following command.
+- Build and intall the debug app with the following command.
 ```bash
 ./gradlew installDebug 
 ```
