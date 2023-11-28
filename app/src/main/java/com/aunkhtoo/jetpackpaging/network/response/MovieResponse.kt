@@ -14,7 +14,7 @@ data class MovieResponse(
   @Json(name = "adult")
   val adult: Boolean,
   @Json(name = "backdrop_path")
-  val backdropPath: String,
+  val backdropPath: String?,
   @Json(name = "genre_ids")
   val genreIds: List<Int>,
   @Json(name = "original_language")
@@ -42,7 +42,7 @@ data class MovieResponse(
   fun mapToMovie() = Movie(
     id = id,
     adult = adult,
-    backdropPath = "https://image.tmdb.org/t/p/original$backdropPath",
+    backdropPath = if (backdropPath == null) "https://c4.wallpaperflare.com/wallpaper/799/191/755/godzilla-movies-digital-art-movie-poster-wallpaper-preview.jpg" else "https://image.tmdb.org/t/p/original$backdropPath",
     genreIds = genreIds,
     originalLanguage = originalLanguage,
     originalTitle = originalTitle,
